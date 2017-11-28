@@ -8,9 +8,9 @@ import java.util.ArrayList;
  * @author : ruiqin.shen
  * @date : 2017/11/28
  */
-public class TimeUtil {
+public class OptionDataUtils {
 
-    public static void initOptionData(int startHour, int startMinute, int endHour, int endMinute, ArrayList<String> options1Items, ArrayList<ArrayList<String>> options2Items) {
+    public static void initTimeData(int startHour, int startMinute, int endHour, int endMinute, ArrayList<String> options1Items, ArrayList<ArrayList<String>> options2Items) {
 
         /**
          * 限制数据范围
